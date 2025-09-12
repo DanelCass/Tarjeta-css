@@ -1,0 +1,55 @@
+
+body {
+    background-color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.tarjeta {
+    width: 350px;
+    background-color: #ff981b;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid #000000;
+    
+}
+.tarjeta:hover {
+    background-color: #ffffff;
+    border: solid 1px #ff981b;
+    border-radius: 50px;
+}
+
+.Encabezado {
+    font-size: 28px;
+    color: #537aa1;
+    border-bottom: 2px solid #1449ab; 
+    padding-bottom: 10px;
+}
+
+
+#texto {
+    font-style: italic;
+    color: #8e44ad; 
+    font-size: 16px;
+}
+
+
+.informacion span {
+    font-weight: bold;
+    color: #e67e22; 
+    background-color: #fdf3e6;
+    padding: 3px 6px;
+    border-radius: 4px;
+}
+
+
+.tarjeta h1, .tarjeta p {
+    margin-top: 0;
+    margin-bottom: 18px;
+    line-height: 1.6;
+}
